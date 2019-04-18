@@ -1,0 +1,61 @@
+{
+	"name": "SquirrelLanguageExtension",
+	"displayName": "Etal TouchPoint",
+	"description": "Etal (Squirrel) Language Keyword Colour and Snippets for Visual Studio Code",
+	"version": "1.0.0",
+	"publisher": "antonymorrish",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"license": "MIT",
+	"keywords": [
+		"etal",
+		"Etal",
+		"moc"
+	],
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"languages": [
+			{
+				"id": "Etal",
+				"aliases": [
+					"Etal",
+					"etal",
+					"moc"
+				],
+				"extensions": [
+					".moc"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "Etal",
+				"scopeName": "source.Etal",
+				"path": "./syntaxes/moc.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "Etal",
+				"path": "./snippets/Etal-completions.json"
+			},
+			{
+				"language": "Etal",
+				"path": "./snippets/Etal-dofiles.json"
+			},
+			{
+				"language": "Etal",
+				"path": "./snippets/Etal-snippets.json"
+			}
+		]
+	},
+	"files.associations": {
+		"*.moc": "Etal"
+	}
+}

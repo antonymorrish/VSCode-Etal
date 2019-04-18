@@ -1,0 +1,142 @@
+{
+	"scope": "source.Etal",
+	"completions": {
+		"array": {
+			"prefix": "array",
+			"body": "array(${1:numberItems}, ${0:fillValue})"
+		},
+		"blob": {
+			"prefix": "blob",
+			"body": "blob(${0:size})"
+		},
+		"abs": {
+			"prefix": "abs",
+			"body": "abs(${0:value})"
+		},
+		"acos": {
+			"prefix": "acos",
+			"body": "acos(${0:cosine})"
+		},
+		"asin": {
+			"prefix": "asin",
+			"body": "asin(${0:sine})"
+		},
+		"atan": {
+			"prefix": "atan",
+			"body": "atan(${0:tangent})"
+		},
+		"atan2": {
+			"prefix": "atan2",
+			"body": "atan2(${1:adjacentLength}, ${0:oppositeLength})"
+		},
+		"ceil": {
+			"prefix": "ceil",
+			"body": "ceil(${0:value})"
+		},
+		"cos": {
+			"prefix": "cos",
+			"body": "cos(${0:angle})"
+		},
+		"exp": {
+			"prefix": "exp",
+			"body": "exp(${0:power})"
+		},
+		"fabs": {
+			"prefix": "fabs",
+			"body": "fabs(${0:value})"
+		},
+		"floor": {
+			"prefix": "floor",
+			"body": "floor(${0:value})"
+		},
+		"log": {
+			"prefix": "log",
+			"body": "log(${0:value})"
+		},
+		"log10": {
+			"prefix": "log10",
+			"body": "log10(${0:value})"
+		},
+		"pow": {
+			"prefix": "pow",
+			"body": "pow(${1:base}, ${0:exponent})"
+		},
+		"rand": {
+			"prefix": "rand",
+			"body": "rand()"
+		},
+		"sin": {
+			"prefix": "sin",
+			"body": "sin(${0:angle})"
+		},
+		"sqrt": {
+			"prefix": "sqrt",
+			"body": "sqrt(${0:value})"
+		},
+		"tan": {
+			"prefix": "tan",
+			"body": "tan(${0:angle})"
+		},
+		"regexp": {
+			"prefix": "regexp",
+			"body": "regexp(${0:expression})"
+		},
+		"format": {
+			"prefix": "format",
+			"body": "format(${0:formatString})"
+		},
+		"lstrip": {
+			"prefix": "lstrip",
+			"body": "lstrip(${0:stringToStrip})"
+		},
+		"rstrip": {
+			"prefix": "rstrip",
+			"body": "rstrip(${0:stringToStrip})"
+		},
+		"split": {
+			"prefix": "split",
+			"body": "split(${1:stringToDivide}, ${0:separatorCharacters})"
+		},
+		"strip": {
+			"prefix": "strip",
+			"body": "strip(${0:stringToStrip})"
+		},
+
+		"assert": {
+			"prefix": "assert",
+			"body": "assert(${0:code})"
+		},
+		"castf2i": {
+			"prefix": "castf2i",
+			"body": "castf2i(${0:value})"
+		},
+		"casti2f": {
+			"prefix": "casti2f",
+			"body": "casti2f(${0:value})"
+		},
+		"date": {
+			"prefix": "date",
+			"body": "date()"
+		},
+		"getroottable": {
+			"prefix": "getroottable",
+			"body": "getroottable()"
+		},
+		"swap2": {
+			"prefix": "swap2",
+			"body": "swap2(${0:value})"
+		},
+		"swap4": {
+			"prefix": "swap4",
+			"body": "swap4(${0:value})"
+		},
+		"swapfloat": {
+			"prefix": "swapfloat",
+			"body": "swapfloat(${0:value})"
+		},
+		"time": {
+			"prefix": "time",
+			"body": "time()"
+		}
+	}
+}

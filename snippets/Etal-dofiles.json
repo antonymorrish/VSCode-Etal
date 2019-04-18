@@ -1,0 +1,37 @@
+{
+  "dofile_keys": {
+    "prefix": "dofile(\"etal\\\\lib\\\\keys.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\keys.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\keys.moc\")"
+  },
+  "dofile_dates": {
+    "prefix": "dofile(\"etal\\\\lib\\\\dates.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\dates.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\dates.moc\")"
+  },
+  "dofile_strings": {
+    "prefix": "dofile(\"etal\\\\lib\\\\strings.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\strings.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\strings.moc\")"
+  },
+  "dofile_barcode": {
+    "prefix": "dofile(\"etal\\\\lib\\\\barcode.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\barcode.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\barcode.moc\")"
+  },
+  "dofile_json": {
+    "prefix": "dofile(\"etal\\\\lib\\\\JSON.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\JSON.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\JSON.moc\")"
+  },
+  "dofile_base64": {
+    "prefix": "dofile(\"etal\\\\lib\\\\base64.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\base64.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\base64.moc\")"
+  },
+  "dofile_HTTPStatusCode": {
+    "prefix": "dofile(\"etal\\\\lib\\\\HTTPStatusCode.moc\")",
+    "body": "dofile(\"etal\\\\\\lib\\\\\\HTTPStatusCode.moc\");",
+    "description": "dofile(\"etal\\\\lib\\\\HTTPStatusCode.moc\")"
+  }
+}
