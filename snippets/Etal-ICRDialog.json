@@ -1,0 +1,67 @@
+{
+	"ICR_MessageBox": {
+		"prefix": "ICR_MessageBox(szLine1, szLine2, szTitle, nType)",
+		"body": "ICR_MessageBox($1 , $2 , $3 , 0);",
+		"description": "DIALOG"
+	},
+	"ICR_GetNumberDialog": {
+		"prefix": "ICR_GetNumberDialog(szTitle)",
+		"body": "ICR_GetNumberDialog($1);",
+		"description": "DIALOG"
+	},
+    "ICR_GetNumberDialogn": {
+		"prefix": "ICR_GetNumberDialog(szTitle , nStart, bHide, nType)",
+		"body": "ICR_GetNumberDialog($1 , $2 , $3 , $4);",
+		"description": "DIALOG"
+	},
+	"ICR_GetAlphaDialog": {
+		"prefix": "ICR_GetAlphaDialog(szTitle)",
+		"body": "ICR_GetAlphaDialog($1);",
+		"description": "DIALOG"
+	},
+    "ICR_GetAlphaDialogn": {
+		"prefix": "ICR_GetAlphaDialog(szTitle , nMax, bCaps, szText)",
+		"body": "ICR_GetAlphaDialog($1 , $2 , $3 , $4);",
+		"description": "DIALOG"
+	},
+	"ICR_ListDialog": {
+		"prefix": "ICR_ListDialog(szTitle )",
+		"body": "ICR_ListDialog($1);",
+		"description": "DIALOG"
+	},
+	"ICR_ListDialogn": {
+		"prefix": "ICR_ListDialog(szTitle ,nStartIdx)",
+		"body": "ICR_ListDialog($1,$2);",
+		"description": "DIALOG"
+	},
+	"ICR_ListDialog_AddItem": {
+		"prefix": "ICR_ListDialog_AddItem(szItem )",
+		"body": "ICR_ListDialog_AddItem($1);",
+		"description": "DIALOG"
+	},
+	"ICR_ListDialog_AddItemn": {
+		"prefix": "ICR_ListDialog_AddItem(szItem , bFirst)",
+		"body": "ICR_ListDialog_AddItem($1,$2);",
+		"description": "DITEM"
+	},
+	"ICR_DataEntryDialog": {
+		"prefix": "ICR_ListDialog(szTitle )",
+		"body": "ICR_DataEntryDialog($1);",
+		"description": "DIALOG"
+	},
+	"ICR_DataEntryDialogn": {
+		"prefix": "ICR_DataEntryDialog(szTitle , bSelectMode)",
+		"body": "ICR_DataEntryDialog($1,true);",
+		"description": "DIALOG"
+	},
+	"ICR_DataEntryDialog_AddItem": {
+		"prefix": "ICR_DataEntryDialog_AddItem(szName, bFirst, szData )",
+		"body": "ICR_ListDialog_AddItem($1, $2, $3);",
+		"description": "DIALOG"
+	},
+	"ICR_DataEntryDialog_AddItemn": {
+		"prefix": "ICR_DataEntryDialog_AddItem(szName, bFirst, szData, nType, nMaxLen, nDP, bReadOnly )",
+		"body": "ICR_ListDialog_AddItem($1, $2, $3 , $4 , $5 , $6, $7);",
+		"description": "DITEM"
+	}
+}

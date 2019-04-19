@@ -1,0 +1,178 @@
+{
+	"OnInit": {
+		"prefix": "OnInit()",
+		"body" : "OnInit() \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"BeforeKeyPress": {
+		"prefix": "BeforeKeyPress(nFile, nRecord, nKeytype)",
+		"body" : "BeforeKeyPress(nFile, nRecord, nKeytype) \n{\n    $0\n    return true;\n}",
+		"description" : "EVENT"
+	},
+	"AfterKeyPress": {
+		"prefix": "AfterKeyPress(nFile, nRecord, nKeytype)",
+		"body" : "AfterKeyPress(nFile, nRecord, nKeytype) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnRunScriptKeyPress": {
+		"prefix": "OnRunScriptKeyPress(nFile, nRecord, nNumber, nValue, nFlag)",
+		"body" : "OnRunScriptKeyPress(nFile, nRecord, nNumber, nValue, nFlag) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnIButtonPressed": {
+		"prefix": "OnIButtonPressed(szIButton)",
+		"body" : "OnIButtonPressed(szIButton) \n{\n    $0\n    return true;\n}",
+		"description" : "EVENT"
+	},
+	"OnCardSwipe": {
+		"prefix": "OnCardSwipe(nTrack, szData)",
+		"body" : "OnCardSwipe(nTrack, szData) \n{\n    $0\n    return true;\n}",
+		"description" : "EVENT"
+	},
+	"OnBarcode": {
+		"prefix": "OnBarcode(szBarcodeData)",
+		"body" : "OnBarcode(szBarcodeData) \n{\n    $0\n    return true;\n}",
+		"description" : "EVENT"
+	},
+	"OnReceiptRequired": {
+		"prefix": "OnReceiptRequired(bCurrentReceiptOnSetting)",
+		"body" : "OnReceiptRequired(bCurrentReceiptOnSetting) \n{\n    $0\n    return bCurrentReceiptOnSetting;\n}",
+		"description" : "EVENT"
+	},
+	"AfterCustomerLogOn": {
+		"prefix": "AfterCustomerLogOn(nCustomer)",
+		"body" : "AfterCustomerLogOn(nCustomer) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"AfterExtCustomerLogOn": {
+		"prefix": "AfterExtCustomerLogOn(szCustomer)",
+		"body" : "AfterExtCustomerLogOn(szCustomer) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnCustomerExpired": {
+		"prefix": "OnCustomerExpired()",
+		"body" : "OnCustomerExpired() \n{\n    $0\n    return true;\n}",
+		"description" : "EVENT"
+	},
+	"OnNewCustomer": {
+		"prefix": "OnNewCustomer(nCustomer)",
+		"body" : "OnNewCustomer(nCustomer) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"AfterRegItemSelect": {
+		"prefix": "AfterRegItemSelect(nItem)",
+		"body" : "AfterRegItemSelect(nItem) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnMixMatch": {
+		"prefix": "OnMixMatch(nTable, nType)",
+		"body" : "OnMixMatch(nTable, nType) \n{\n    $0\n    return 0;\n}",
+		"description" : "EVENT"
+	},
+	"BeforeFinalise": {
+		"prefix": "BeforeFinalise(nRecord, nKeyType, nTenderAmount)",
+		"body" : "BeforeFinalise(nRecord, nKeyType, nTenderAmount) \n{\n    $0\n    return true;\n}",
+		"description" : "EVENT"
+	},
+	"PreSaleFinalised": {
+		"prefix": "PreSaleFinalised()",
+		"body" : "PreSaleFinalised() \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"AfterFinalise": {
+		"prefix": "AfterFinalise()",
+		"body" : "AfterFinalise() \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnTimer": {
+		"prefix": "OnTimer(nTimerID, nSystemTime)",
+		"body" : "OnTimer(nTimerID, nSystemTime) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"AfterModeChange": {
+		"prefix": "AfterModeChange(nFrom, nTo)",
+		"body" : "AfterModeChange(nFrom, nTo) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnAwaitFile": {
+		"prefix": "OnAwaitFile(szFileName, nEventID, bExpired)",
+		"body" : "OnAwaitFile(szFileName, nEventID, bExpired) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnPlayMacroResult": {
+		"prefix": "OnPlayMacroResult(bSuccess)",
+		"body" : "OnPlayMacroResult(bSuccess) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"ReportEvent": {
+		"prefix": "function ReportEvent(nEventType)",
+		"body" : "function ReportEvent(nEventType, nReportCode, nPeriod, bZReport, nLocation,bNetwork, nFromDept, nToDept, nFromGroup, nToGroup, nMC, nPort) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"AfterFullSalesDataReset": {
+		"prefix": "AfterFullSalesDataReset()",
+		"body" : "AfterFullSalesDataReset() \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnFile_ReadPipeResult": {
+		"prefix": "OnFile_ReadPipeResult(nID,szData)",
+		"body" : "OnFile_ReadPipeResult(nID,szData) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"BeforePrint": {
+		"prefix": "BeforePrint(nType, nFile, nRecord, nMC, nPort)",
+		"body" : "BeforePrint(nType, nFile, nRecord, nMC, nPort) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnKPDeviceRequested": {
+		"prefix": "OnKPDeviceRequested(nKP)",
+		"body" : "OnKPDeviceRequested(nKP) \n{\n    $0\n    return nKP; \n}",
+		"description" : "EVENT"
+	},
+	"InsertAdditionalOrderInfo": {
+		"prefix": "InsertAdditionalOrderInfo(nDest)",
+		"body" : "InsertAdditionalOrderInfo(nDest) \n{\n    // Receipt 1 Kitchen Printer 2 Bill 3 Ticket 4  \n    local szExtraInfo = \"\";\n    $0\n    return szExtraInfo; \n}",
+		"description" : "EVENT"
+	},
+	"OnMouseEvent": {
+		"prefix": "OnMouseEvent(nWindowID, nEvent, nX, nY)",
+		"body" : "OnMouseEvent(nWindowID, nEvent, nX, nY) \n{\n    // nEvent 0 = Left button down, 1 = left button up, 2 = mouse move \n    $0\n}",
+		"description" : "EVENT"
+	},	
+	"OnWindowPaint": {
+		"prefix": "OnWindowPaint(nWindowID)",
+		"body" : "OnWindowPaint(nWindowID) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnEmailOutResult": {
+		"prefix": "OnEmailOutResult(bSuccess, szMessage)",
+		"body" : "OnEmailOutResult(bSuccess, szMessage) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnSMSOutResult": {
+		"prefix": "OnSMSOutResult(bSuccess, szMessage, szNumberOfContacts,szCreditsRequired, szCreditsRemaining)",
+		"body" : "OnSMSOutResult(bSuccess, szMessage, szNumberOfContacts,szCreditsRequired, szCreditsRemaining) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"function OnFTPResult": {
+		"prefix": "function OnFTPResult(bSuccess, szMessage)",
+		"body" : "function OnFTPResult(bSuccess, szMessage) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnWebResult": {
+		"prefix": "OnWebResult(nID, nResult, szData, szType)",
+		"body" : "OnWebResult(nID, nResult, szData, szType) \n{\n    $0\n}",
+		"description" : "EVENT"
+	},
+	"OnWebPostResult": {
+		"prefix": "OnWebPostResult(nID, nResult, szData)",
+		"body" : "OnWebResult(nID, nResult, szData, szType) \n{\n    // Deprecated!\n    // Use OnWebResult \n}",
+		"description" : "EVENT"
+	},
+	"OnVoucherResult": {
+		"prefix": "OnVoucherResult(bSuccess, szVoucherCode, nJob, tVoucherData)",
+		"body" : "OnVoucherResult(bSuccess, szVoucherCode, nJob, tVoucherData) \n{\n    $0\n}",
+		"description" : "EVENT"
+	}
+	
+}
