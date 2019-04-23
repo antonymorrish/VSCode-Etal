@@ -1,0 +1,42 @@
+{
+	"ICR_EnableDebugLog": {
+		"prefix": "ICR_EnableDebugLog(bEnable)",
+		"body": "ICR_EnableDebugLog($1)",
+		"description": "Utility Func"
+	},
+	"ICR_SetFeature": {
+		"prefix": "ICR_SetFeature(szFeature, szValue)",
+		"body": "ICR_SetFeature($1, $2)",
+		"description": "Utility Func"
+	},
+	"ICR_StealEvent": {
+		"prefix": "ICR_StealEvent(szEventName [, bOnceOnly])",
+		"body": "ICR_StealEvent($1, $2)",
+		"description": "Utility Func"
+	},
+	"ICR_ReleaseEvent": {
+		"prefix": "ICR_ReleaseEvent(szEventName)",
+		"body": "ICR_ReleaseEvent($1)",
+		"description": "Utility Func"
+	},
+	"ICR_SysProc": {
+		"prefix": "ICR_SysProc(szCommand,[args...])",
+		"body": "ICR_SysProc($1)",
+		"description": "ICR_SysProc"
+	},
+	"ICR_SysProcD1": {
+		"prefix": "ICR_SysProc(\"OPENDRAWER\",1);\n",
+		"body": "ICR_SysProc($1)",
+		"description": "ICR_SysProc"
+	},
+	"ICR_SysProcUP": {
+		"prefix": "ICR_SysProc(\"UPDATE\","",true);\n",
+		"body": "ICR_SysProc($1)",
+		"description": "ICR_SysProc"
+	},
+	"ICR_GetUTCTimeBias": {
+		"prefix": "ICR_GetUTCTimeBias()",
+		"body": "ICR_GetUTCTimeBias()",
+		"description": "nMinutes"
+	}
+}
